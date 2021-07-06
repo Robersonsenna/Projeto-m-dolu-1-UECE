@@ -10,15 +10,17 @@ package sistemadegestão;
  * @author rober
  */
 public class Funcionario {
-    private int matricula; 
-    private string nome;
-    private departamento dep;
-    
-    public funcionario() {
-    
-}
-    
-public funcionario (int matricula, string nome) {
-    this.matricula = matricula;
-    this.nome = nome
+
+    private int matricula;
+    private String nome;
+    private Departamento dep;
+
+    public Funcionario() {
+
+    }
+
+    public Funcionario(int matricula, String nome) {
+        this.matricula = matricula;
+        this.nome = nome;
+    }
 }
